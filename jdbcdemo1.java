@@ -31,7 +31,7 @@ class jdbcdemo1 {
   			}	
   		}
   		static void update(Statement st) throws SQLException {
-  			int j = st.executeUpdate("update EMP set esal=esal+"+5000+");
+  			int j = st.executeUpdate("update EMP set esal=esal+"+5000+"");
   			if(j!= 0) {
   				System.out.println("Record Updated");
   			}
