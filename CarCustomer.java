@@ -6,7 +6,8 @@ abstract class cars{
 class jaguar extends cars{
       void cost()
       {
-            System.out.println("*jaguar Details"); 
+           System.out.println("*jaguar Details"); 
+          System.out.println("==============================");
          System.out.println(" cost is: 1cr ");
       }
       void meilage()
@@ -18,11 +19,11 @@ class jaguar extends cars{
          System.out.println(" hoursepower is: 568HR ");
       }
 }
- System.out.println("==============================");
 class Audi extends cars{
    void cost()
    {
           System.out.println("*Audi Details");
+        System.out.println("==============================");
        System.out.println(" cost is: 50L ");
    }
    void meilage()
@@ -34,12 +35,12 @@ class Audi extends cars{
          System.out.println(" hoursepower is: 467HR ");
       }
 }
- System.out.println("==============================");
 class BMW extends cars{
    void cost()
    {
       
        System.out.println("*BMW Details"); 
+       System.out.println("==============================");
        System.out.println(" cost is: 40L ");
    }
    void meilage()
