@@ -19,7 +19,7 @@ class jdbcdemo1 {
   		static void delete(Statement st) throws SQLException{
   			System.out.println("Enter the eid that you want to delete :");
   			int eid = s.nextInt();
-  			int x = st.executeUpdate("delete from EMP where eid is :"+eid);
+  			int x = st.executeUpdate("delete from EMP where eid="+eid);
   			if(x != 0) {
   				System.out.println("Record Deleted");
   			}
@@ -31,7 +31,7 @@ class jdbcdemo1 {
   			}	
   		}
   		static void update(Statement st) throws SQLException {
-  			int j = st.executeUpdate("update employee set salary = salary+ "+5000);
+  			int j = st.executeUpdate("update EMP set esal=esal+"+5000+");
   			if(j!= 0) {
   				System.out.println("Record Updated");
   			}
