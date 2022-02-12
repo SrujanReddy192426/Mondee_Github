@@ -26,7 +26,7 @@ if(rs.next()){
 ps.setInt(2,aid);
 int x=ps.executeUpdate();
 if(x!=0){
-	response.sendRedirect("manager_view_applicants.jsp");
+	response.sendRedirect("viewapplicants.jsp");
 }
 %>
 
