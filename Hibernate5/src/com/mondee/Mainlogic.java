@@ -1,4 +1,4 @@
-package com.mondee;
+package com.jarvis;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -20,12 +20,12 @@ public class Mainlogic {
 		SessionFactory sf = me.buildSessionFactory();
 		Session se = sf.openSession();
 		Transaction tx = se.beginTransaction();
-		student mastan= new student();
-		mastan.setSid(1206);
-		mastan.setSname("parnithaaaa");
-		mastan.setSmarks(700);
+		student srujan= new student();
+		srujan.setSid(1206);
+		srujan.setSname("bhavani");
+		srujan.setSmarks(700);
 		
-		se.save(mastan);
+		se.save(srujan);
 		
 		
 		tx.commit();
