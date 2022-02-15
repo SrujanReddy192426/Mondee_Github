@@ -3,7 +3,7 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
 
 <hibernate-mapping>
-<class name="com.mondee.student" table="student">
+<class name="com.jarvis.student" table="student">
 <id name="sid" column="sid"/>
 <property name ="sname" column="name"></property>
 <property name ="smarks" column="marks"></property>
