@@ -1,4 +1,4 @@
- package com.jarvis;
+ package com.mondee;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
