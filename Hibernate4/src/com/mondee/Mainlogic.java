@@ -15,11 +15,11 @@ public class Mainlogic {
 		SessionFactory sf = cf.buildSessionFactory();
 		Session se = sf.openSession();
 		Transaction tx = se.beginTransaction();
-		student mastan = new student();
-		mastan.setSid(1023);
-		mastan.setSname(" rohit sharma");
-	    mastan.setSmarks(10);
-		se.save(mastan);
+		student srujan = new student();
+		srujan.setSid(1023);
+		srujan.setSname(" Dhoni ");
+	        srujan.setSmarks(10);
+		se.save(srujan);
 		tx.commit();
 		se.close();
 		}	
