@@ -1,5 +1,5 @@
 
-package com.jarvis;
+package com.mondee;
 
 public class student 
 {
